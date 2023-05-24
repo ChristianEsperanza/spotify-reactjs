@@ -27,7 +27,10 @@ const Container = styled.div`
 `;
 
 const handleButtonClick= () => {
-  const url = `${API_URL}?client_id=${config.CLIENT_ID}&redirect_uri=${config.REDIRECT_URL}&scope=${SCOPES.join(
+  // const url = `${API_URL}?client_id=${config.CLIENT_ID}&redirect_uri=${REDIRECT_URL}&scope=${SCOPES.join(
+  //   " "
+  //   )}&response_type=token&show_dialog=true`;
+  const url = `${API_URL}?client_id=7d379adeda1f406981991e0db5502411&redirect_uri=https://spotify-wrapped-react.herokuapp.com/&scope=${SCOPES.join(
     " "
     )}&response_type=token&show_dialog=true`;
 
