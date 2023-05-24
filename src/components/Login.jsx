@@ -1,0 +1,14 @@
+import React from 'react'
+import styled from 'styled-components';
+
+const Container = styled.div``;
+
+export default function Login() {
+  return (
+    <Container>
+      <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Black.png" alt=""/>
+      <button>Connect Spotify</button>
+    </Container>
+  )
+}
+
