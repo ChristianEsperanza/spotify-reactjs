@@ -17,3 +17,5 @@ export const API_URL = "https://accounts.spotify.com/authorize";
 export const reducerCases = {
     SET_TOKEN: "SET_TOKEN"
 }
+
+export const API_URL_ROOT = "https://api.spotify.com/v1/me" 
