@@ -1,0 +1,5 @@
+export default {
+    CLIENT_ID: process.env.REACT_APP_SPOTIFY_CLIENT_ID,
+    CLIENT_SECRET: process.env.REACT_APP_SPOTIFY_SECRET,
+    REDIRECT_URL: process.env.REACT_APP_REDIRECT_URL
+};
